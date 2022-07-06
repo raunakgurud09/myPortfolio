@@ -1,0 +1,36 @@
+.experience{
+    width: 100%;   
+    /* height: max-content; */
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    /* background-color: aqua; */
+}
+
+.experience__toggle-btn{
+    display: flex;
+    padding:.3rem;
+    border-radius: 32px;
+    background-color: transparent;
+    background-color: var(--black10);
+
+
+}
+
+.experience__toggle-btn button{
+    border: none;
+    padding: 1rem;
+    border-radius: 32px;
+}
+
+.activated {
+    background-color: black;
+    color: white;
+    transition: .2s ease-in;
+}
+
+

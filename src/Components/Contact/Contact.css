@@ -1,0 +1,32 @@
+.contact__container-left{
+    width: 47%;
+}
+
+@media (max-width:700px) {
+    .contact__container-left{
+        width: 100%;
+    }  
+
+    .contact__text-wrap{
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+}
+
+.contact__text-wrap h3{
+    font-size: var(--heading3);
+}
+.contact__text-wrap p {
+    font-size: var(--para);
+}
+/******************************/
+.contact__container-right{
+    width: 47%;
+    height: 100%;
+}
+
+@media (max-width:700px) {
+    .contact__container-right{
+        width: 100%;
+    }  
+}

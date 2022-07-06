@@ -1,0 +1,90 @@
+.form{
+    width: 100%;
+    height: 100%;
+    /* background-color: teal; */
+
+    background-color: var(--black10);
+    /* margin: .5rem; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 4rem 2rem; 
+}
+
+.form__50section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:1000px) {
+    .form__50section{
+        flex-direction: column;
+    }
+    .form__message{
+        width: 100%;
+    }
+}
+
+label{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-weight: 300;
+    padding: .2rem;
+}
+input{
+    width: 100%;
+    height: 4em;
+
+    background-color: rgba(0, 0, 0, .1);
+    background-color: transparent;
+    border: 1px solid var(--black25);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:   Verdana, 'Trebuchet MS', Tahoma,; */
+}
+
+textarea{
+    background-color: transparent;
+    border: 1px solid var(--black25);
+    border-radius: 8px;
+    padding: 1rem;
+
+}
+
+textarea:focus{
+
+    outline: 1px solid var(--black25);
+}
+
+input:focus{
+    
+    outline: 1px solid var(--black25);
+}
+
+.form__message{
+    height: 7em;
+    width: 100%;
+    align-items: center;
+}
+
+form Button{
+    margin: 2rem 0px;
+}
+
+.error{
+    color :red;
+    font-size: smaller;
+}
+
+form span{
+    color :green;
+    margin: .4rem;
+}
