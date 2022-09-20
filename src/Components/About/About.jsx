@@ -8,7 +8,7 @@ function About() {
         <div className="about__text-wrap">
           <h3>About ME</h3>
           <p>
-            I am a computer Science student learn and innovating new stuff online.
+            I am a computer Science student learning and innovating new stuff online.
             An passionate and Curious individual playing around with different and
             new technology
             <br /><br /> 
