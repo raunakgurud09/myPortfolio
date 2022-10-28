@@ -1,8 +1,21 @@
 import sortingAlgoVisImg from "../../Assets/Image/SortingVisualizer2.png";
 import calculatorImg from "../../Assets/Image/calculator.png";
 import snakeGameImg from "../../Assets/Image/snakeGame.png";
+import authFlowImg from "../../Assets/Image/authFlow.jpeg";
 
 export const Projects = [
+  {
+    backgroundColor: "#cac4bb",
+    imageURI:authFlowImg ,
+    alt: "AuthFlow",
+    ProjectTitle: "AuthFlow",
+    ProjectSummary: "This is a project which has complete authorization backend",
+    ProjectDescription:
+      "Setup your authorization in less than 10 min by using authFlow",
+    gitHubLink:
+      "https://github.com/raunakgurud09/authflow",
+    PublishedLink: "",
+  },
   {
     backgroundColor: "#00FFFF",
     imageURI: sortingAlgoVisImg,
