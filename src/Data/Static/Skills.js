@@ -5,6 +5,7 @@ import mongoDBImg from '../../Assets/Image/Skills/mongodb-svgrepo-com 1.png'
 import nodeJSImg from '../../Assets/Image/Skills/nodejs-svgrepo-com 1.png'
 import tsImg from '../../Assets/Image/Skills/typescript-svgrepo-com 1.png'
 import reactImg from '../../Assets/Image/Skills/react.png'
+import dockerImg from '../../Assets/Image/Skills/docker-svgrepo-com.png'
 
 export const skills = [
     {
@@ -41,5 +42,10 @@ export const skills = [
         imgURI : tsImg,
         skillName : "TypeScript",
         alt:"TypeScript Developer"
+    },
+    {
+        imgURI : dockerImg,
+        skillName : "Docker",
+        alt:"Docker Developer"
     },
 ]
