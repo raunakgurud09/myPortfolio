@@ -1,7 +1,7 @@
 import sortingAlgoVisImg from "../../Assets/Image/SortingVisualizer2.png";
 import calculatorImg from "../../Assets/Image/calculator.png";
 import snakeGameImg from "../../Assets/Image/snakeGame.png";
-import authFlowImg from "../../Assets/Image/auth.jpeg";
+import authFlowImg from "../../Assets/Image/auth.png";
 import ShopImage from "../../Assets/Image/shop-home.png";
 import briefly from "../../Assets/Image/briefly-logo.png";
 
